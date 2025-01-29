@@ -30,4 +30,5 @@
   ComfyUI-Custom-Scripts = callPackage ./ComfyUI-Custom-Scripts { };
   rgthree-comfy = callPackage ./rgthree-comfy { };
   ComfyUI-KJNodes = callPackage ./ComfyUI-KJNodes { };
+  ComfyUI-HunyuanVideoMultiLora = callPackage ./ComfyUI-HunyuanVideoMultiLora { };
 }
