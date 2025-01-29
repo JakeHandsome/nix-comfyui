@@ -1,0 +1,13 @@
+diff --git a/pysssss.py b/pysssss.py
+index b1024f5..a0bdc80 100644
+--- a/pysssss.py
++++ b/pysssss.py
+@@ -169,7 +169,7 @@ def init(check_imports=None):
+                     type="ERROR", always=True)
+                 return False
+ 
+-    install_js()
++    WEB_DIRECTORY = "./js"
+     return True
+ 
+ 
