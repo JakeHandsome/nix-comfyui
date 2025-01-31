@@ -31,4 +31,5 @@
   rgthree-comfy = callPackage ./rgthree-comfy { };
   ComfyUI-KJNodes = callPackage ./ComfyUI-KJNodes { };
   ComfyUI-HunyuanVideoMultiLora = callPackage ./ComfyUI-HunyuanVideoMultiLora { };
+  comfyui-profiler = callPackage ./comfyui-profiler { };
 }
