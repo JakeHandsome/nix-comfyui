@@ -1,0 +1,21 @@
+diff --git a/__init__.py b/__init__.py
+index 31dc8c0..4f3b7c8 100644
+--- a/__init__.py
++++ b/__init__.py
+@@ -14,7 +14,6 @@ from .seq_processing import *
+ from .switches import *
+ from .lazyswitches import *
+ from .utility import *
+-from .calculate import *
+ from .laboratory import *
+ 
+ _NODE_CLASSES: List[Type] = [DreamSineWave, DreamLinear, DreamCSVCurve, DreamBeatCurve, DreamFrameDimensions,
+@@ -28,7 +27,7 @@ _NODE_CLASSES: List[Type] = [DreamSineWave, DreamLinear, DreamCSVCurve, DreamBea
+                              DreamFrameCountCalculator, DreamBigImageSwitch, DreamBigTextSwitch, DreamBigFloatSwitch,
+                              DreamBigIntSwitch, DreamBigPaletteSwitch, DreamWeightedPromptBuilder, DreamPromptFinalizer,
+                              DreamFrameCounterInfo, DreamBoolToFloat, DreamBoolToInt, DreamSawWave, DreamTriangleWave,
+-                             DreamTriangleEvent, DreamSmoothEvent, DreamCalculation, DreamImageColorShift,
++                             DreamTriangleEvent, DreamSmoothEvent, DreamImageColorShift,
+                              DreamComparePalette, DreamImageContrast, DreamImageBrightness, DreamLogFile,
+                              DreamLaboratory, DreamStringToLog, DreamIntToLog, DreamFloatToLog, DreamJoinLog,
+                              DreamStringTokenizer, DreamWavCurve, DreamFrameCounterTimeOffset, DreamRandomPromptWords,

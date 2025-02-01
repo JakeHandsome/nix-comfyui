@@ -1,0 +1,13 @@
+diff --git a/shared.py b/shared.py
+index 24bde24..ab60fb2 100644
+--- a/shared.py
++++ b/shared.py
+@@ -43,7 +43,7 @@ _config_data = None
+ 
+ 
+ class DreamConfig:
+-    FILEPATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.json")
++    FILEPATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config", "config.json")
+     DEFAULT_CONFIG = EMBEDDED_CONFIGURATION
+ 
+     def __init__(self):

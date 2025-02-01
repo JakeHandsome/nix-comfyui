@@ -1,0 +1,13 @@
+diff --git a/py/libs/stability.py b/py/libs/stability.py
+index 26688fa..6297e78 100644
+--- a/py/libs/stability.py
++++ b/py/libs/stability.py
+@@ -10,7 +10,7 @@ from .log import log_node_error
+ 
+ 
+ root_path = pathlib.Path(__file__).parent.parent.parent
+-config_path = os.path.join(root_path,'config.yaml')
++config_path = os.path.join(root_path,'config','config.yaml')
+ default_key = [{'name':'Default', 'key':''}]
+ 
+ class StabilityAPI:

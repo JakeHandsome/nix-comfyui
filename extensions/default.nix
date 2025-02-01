@@ -31,5 +31,11 @@
   rgthree-comfy = callPackage ./rgthree-comfy { };
   ComfyUI-KJNodes = callPackage ./ComfyUI-KJNodes { };
   ComfyUI-HunyuanVideoMultiLora = callPackage ./ComfyUI-HunyuanVideoMultiLora { };
-  comfyui-profiler = callPackage ./comfyui-profiler { };
+  #  comfyui-profilerx = callPackage ./comfyui-profilerx { };
+  cg-use-everywhere = callPackage ./cg-use-everywhere { };
+  ComfyUI-Detail-Daemon = callPackage ./ComfyUI-Detail-Daemon { };
+  ComfyUI-Easy-Use = callPackage ./ComfyUI-Easy-Use { };
+  ComfyUI-Impact-Pack = callPackage ./ComfyUI-Impact-Pack { };
+  ComfyUI-mxToolkit = callPackage ./ComfyUI-mxToolkit { };
+  comfyui-dream-project = callPackage ./comfyui-dream-project { };
 }
