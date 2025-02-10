@@ -38,4 +38,8 @@
   ComfyUI-Impact-Pack = callPackage ./ComfyUI-Impact-Pack { };
   ComfyUI-mxToolkit = callPackage ./ComfyUI-mxToolkit { };
   comfyui-dream-project = callPackage ./comfyui-dream-project { };
+  comfyui-image-saver = callPackage ./comfy-image-saver { };
+  ComfyUI_TTP_Toolse = callPackage ./Comfyui_TTP_Toolset { };
+  #comfyui-dynamicprompts = callPackage ./comfyui-dynamicprompts { };
+  cg-image-picker = callPackage ./cg-image-picker { };
 }
