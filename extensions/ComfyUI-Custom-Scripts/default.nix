@@ -13,8 +13,8 @@ buildExtension {
     owner = "pythongosssss";
     repo = "ComfyUI-Custom-Scripts";
     fetchSubmodules = false;
-    rev = "bc8922deff73f59311c05cef27b9d4caaf43e87b";
-    hash = "sha256-mGpH2U4HLhORo6SdG6D6s0/NG3qhq4RZnLDNxDc5Aq0=";
+    rev = "a53ef9b617ed1331640d7a2cd97644995908dc00";
+    hash = "sha256-rb+1NpyRkLY05HQ8tEljB4X6rf3dp26ANonfL0Xin00=";
   };
 
   patches = [

@@ -1,8 +1,8 @@
-{
-  buildExtension,
-  fetchFromGitHub,
-  lib,
-  python3,
+{ buildExtension
+, fetchFromGitHub
+, lib
+, python3
+,
 }:
 
 buildExtension {
@@ -13,8 +13,8 @@ buildExtension {
     owner = "yolain";
     repo = "ComfyUI-Easy-Use";
     fetchSubmodules = false;
-    rev = "2b160cc789c5f721797b5e32308063309b0f3ecb";
-    hash = "sha256-rYvf7F1X18qCHoVuHhxzelqVJ1tR3fx8eIM0ZZepRCY=";
+    rev = "123917da9adec0d2b0b5f817deefb9ac3ed464f1";
+    hash = "sha256-ofYrbsNqS5bkwHNXXRNuDQaGWkG2RMLsWj+VoPtaAv4=";
   };
 
   patches = [

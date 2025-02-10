@@ -1,8 +1,8 @@
-{
-  buildExtension,
-  fetchFromGitHub,
-  lib,
-  python3,
+{ buildExtension
+, fetchFromGitHub
+, lib
+, python3
+,
 }:
 
 buildExtension {
@@ -13,8 +13,8 @@ buildExtension {
     owner = "ltdrdata";
     repo = "ComfyUI-Impact-Pack";
     fetchSubmodules = false;
-    rev = "092310bc8f1116a8e237e8fe142c853281903a96";
-    hash = "sha256-unl0PLsiY6aTXsAuMw6DCIOusfwEIGvN5i7vQ/+pI7g=";
+    rev = "1ae7cae2df8cca06027edfa3a24512671239d6c4";
+    hash = "sha256-E63an6oiyEcTB+r78ZJwVfctuaPmT/9XL5h/nmmXPXM=";
   };
 
   propagatedBuildInputs = [

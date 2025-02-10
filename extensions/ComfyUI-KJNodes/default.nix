@@ -13,8 +13,8 @@ buildExtension {
     owner = "kijai";
     repo = "ComfyUI-KJNodes";
     fetchSubmodules = false;
-    rev = "2abf557e3d6ae6618456a190044a85a52f2a585a";
-    hash = "sha256-W1pMSubEtKWnFsVMndSUZeOA9wnQNuMqdIpuxQPFIVY=";
+    rev = "86b5453a5ca9ecb883eedc9d0a96bf942b9ca73e";
+    hash = "sha256-Y8vUwyehGX0nKO88DmdZMpWFkrQNwJO3EU4g9stBjdE=";
   };
 
   propagatedBuildInputs = [

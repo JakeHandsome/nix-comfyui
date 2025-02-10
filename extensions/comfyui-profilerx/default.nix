@@ -1,8 +1,8 @@
-{
-  buildExtension,
-  fetchFromGitHub,
-  lib,
-  python3,
+{ buildExtension
+, fetchFromGitHub
+, lib
+, python3
+,
 }:
 
 buildExtension {
@@ -13,8 +13,8 @@ buildExtension {
     owner = "ryanontheinside";
     repo = "ComfyUI_ProfilerX";
     fetchSubmodules = false;
-    rev = "e1ba34f0dcce7fb36f9ade22bdc5c8045272faa6";
-    hash = "sha256-eKlUOcGTYrcULM8omSRaY51kxtyhbqAkcVhByxyv39Y=";
+    rev = "29bc10bf48f4d1366d1a63e99c5526a7f5aefe64";
+    hash = "sha256-3CWK9Tia+pO9bCobCEJi6dm+NbDqZEQfoSbroJ+0KAM=";
   };
 
   propagatedBuildInputs = [ python3.pkgs.psutil ];

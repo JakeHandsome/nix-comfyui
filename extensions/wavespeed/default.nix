@@ -13,8 +13,8 @@ buildExtension {
     owner = "chengzeyi";
     repo = "Comfy-WaveSpeed";
     fetchSubmodules = false;
-    rev = "a9caacb0706c5fbe5fbc8718081f7c3e3e348ebd";
-    hash = "sha256-tZ6Oa1eYeAkFraSVecfARdBGbrz5TOLrUN+DBr1pb0g=";
+    rev = "3db162bb7ad56b84a452a4778527da63793c0e87";
+    hash = "sha256-myWJbhDtv9XhYa39y3csFqmPZaTaHmOXKanY5XIwJ6U=";
   };
 
   meta = {

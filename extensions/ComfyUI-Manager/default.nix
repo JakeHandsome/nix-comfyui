@@ -13,8 +13,8 @@ buildExtension {
     owner = "ltdrdata";
     repo = "ComfyUI-Manager";
     fetchSubmodules = false;
-    rev = "717ca1bb182c9350dcec82fb94fc41fbb9f6a4ba";
-    hash = "sha256-O8YL2cYCaRZcx+86CPkx5D9aCt+1k2zSQXfDOvtbnIE=";
+    rev = "e113e011cb42919320a4622d4aa7a954c2d31309";
+    hash = "sha256-6bp2J/CfWkoFDvzAWBekqlbe9eZVWt/Arnsz3+jcBbs=";
   };
 
   propagatedBuildInputs = [
