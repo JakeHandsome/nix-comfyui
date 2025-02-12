@@ -43,4 +43,7 @@
   #comfyui-dynamicprompts = callPackage ./comfyui-dynamicprompts { };
   cg-image-picker = callPackage ./cg-image-picker { };
   ComfyLiterals = callPackage ./ComfyLiterals { };
+  ComfyUI-HunyuanVideoStyler = callPackage ./ComfyUI-HunyuanVideoStyler { };
+  ComfyUI-VideoResolutions = callPackage ./ComfyUI-VideoResolutions { };
+  was-node-suite = callPackage ./was-node-suite { };
 }
