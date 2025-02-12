@@ -42,4 +42,5 @@
   ComfyUI_TTP_Toolse = callPackage ./Comfyui_TTP_Toolset { };
   #comfyui-dynamicprompts = callPackage ./comfyui-dynamicprompts { };
   cg-image-picker = callPackage ./cg-image-picker { };
+  ComfyLiterals = callPackage ./ComfyLiterals { };
 }
